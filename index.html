@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>2048</title>
+    <script src="./main.js" type="module"></script>
+  </head>
+
+  <body>
+    <main class="main">
+      <header class="header">
+        <nav>
+          <section class="modal hidden"></section>
+          <div class="overlay hidden"></div>
+          <button class="btn btn-open">
+            <img src="./icons/bars.svg" alt="" />
+          </button>
+        </nav>
+        <h1>2048</h1>
+        <div class="nav__score">
+          <p>score</p>
+          <h2 class="score" id="score">5000</h2>
+        </div>
+      </header>
+      <section class="modal hidden">
+        <div class="flex">
+          <button class="btn-close">X</button>
+        </div>
+        <div>
+          <h3>Stay in touch</h3>
+          <p>
+            This is a dummy newsletter form so don't bother trying to test it.
+            Not that I expect you to, anyways
+          </p>
+        </div>
+      </section>
+      <div class="game__board" id="game__board">
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+      </div>
+    </main>
+  </body>
+</html>
